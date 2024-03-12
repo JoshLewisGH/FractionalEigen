@@ -53,7 +53,7 @@ To use the solver, follow these steps:
 python scriptHead.py
 ```
 
-## Requirements
+## Requirements and Dependencies
 
 This project is developed with Python 3.x. Ensure you have Python 3.x installed on your system before running this solver. Below is a list of required Python packages that are necessary to run the project successfully:
 
