@@ -13,13 +13,26 @@ This project provides a numerical solver for the eigenfunctions of the fractiona
 
 ## Installation
 
-To get started with this solver, you will need to clone the repository and set up the necessary environment.
+To install and run this solver, you will need Python 3.x installed on your system. Follow the steps below to set up the project:
+
+1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/fractional-schrodinger-solver.git
-cd fractional-schrodinger-solver
-# follow setup instructions or run setup script if provided
+git clone https://github.com/JoshLewisGH/FractionalEigen.git
+cd FractionalEigen
 ```
+
+2. Ensure that `scriptHead.py` and `imaginaryEigen.py` are placed in the same directory. These files work together to solve for the eigenfunctions of the fractional Schrödinger equation, with `scriptHead.py` serving as the entry point for users to set parameters and initiate the computation.
+
+3. When you run `scriptHead.py`, the script will automatically create a directory structure within the same directory to store the produced eigenfunctions, plots, and other miscellaneous data. This organization helps in managing the outputs and ensuring that all generated files are easily accessible.
+
+To run the solver, navigate to the project directory and execute:
+
+```bash
+python scriptHead.py
+```
+
+Follow any additional setup or usage instructions provided in the [Usage](#usage) section to configure and start your computations.
 
 ## Usage
 
