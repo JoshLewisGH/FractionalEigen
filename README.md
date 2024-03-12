@@ -19,6 +19,7 @@ To get started with this solver, you will need to clone the repository and set u
 git clone https://github.com/yourusername/fractional-schrodinger-solver.git
 cd fractional-schrodinger-solver
 # follow setup instructions or run setup script if provided
+```
 
 ## Usage
 
@@ -37,6 +38,7 @@ To use the solver, follow these steps:
 
 ```bash
 python scriptHead.py
+```
 
 ## Requirements
 
@@ -54,6 +56,7 @@ To install the required packages, you can use the following command:
 
 ```bash
 pip install numpy matplotlib scipy
+```
 
 ## License
 
